@@ -1,0 +1,17 @@
+npm init:
+    Creamos el proyecto y el package.json
+npm install express
+    Instala express en node_modules e incluye las dependencias en package.json
+npm update
+    Para actualizar las dependencias
+npm install 
+    Si desde otro ordenador iniciamos este proyecto se nos instalan las dependencias del package.json
+npm install --save-dev nodemon
+    Nodemon reinicia la aplicación node con los cambios efectuados
+    Se instala como dependencia de desarrollo ya que no haría falta en un servidor de producción
+    En package.json: "dev": "nodemon index.js" . Ahora se ejecuta la app con npm run dev
+npm install morgan 
+    HTTP request logger middleware for node.js
+    var morgan = require('morgan')
+npm install cors
+    Cors es el middleware que permite solicitudes entre distintos servidores
