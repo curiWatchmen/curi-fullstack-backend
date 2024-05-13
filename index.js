@@ -16,6 +16,9 @@ const requestLogger = (request, response, next) => {
 app.use(requestLogger)
 // Cors para permitir que localhost:3001 se comunique con localhost:3000
 app.use(cors())
+// static para hacer que el backend muestre el contenido del index.html
+// que hemos copiado de la carpeta /build del front end
+app.use(express.static('build'))
 
 // NOTAS
 let notes = [
