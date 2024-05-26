@@ -15,3 +15,13 @@ npm install morgan
     var morgan = require('morgan')
 npm install cors
     Cors es el middleware que permite solicitudes entre distintos servidores
+
+MONGO DB:
+MONGO DB ATLAS
+https://www.mongodb.com/cloud/atlas - Dar de alta cuenta y elegir la opción FREE
+Añadida mi IP al cluster: 45.8.65.167
+curiwatchmen // hA04GcalFVErpQcn
+URI (para la conexión desde código): mongodb+srv://curiwatchmen:hA04GcalFVErpQcn@cluster0.2lz8k0h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+mongoose: Librería ODM para facilitar la conexión a MongoDB
+npm install mongoose
+    node mongo.js hA04GcalFVErpQcn
